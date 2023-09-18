@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Structure</title>
+    <link rel="stylesheet" href="forming.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+  <video autoplay loop muted id="pyramids" >
+    <source src="Egypt pyramid No Copyright Video, Background, - Motion Graphics, Animated Background, Copyright Free.mp4" type="video/mp4">
+  </video>
+  <main>
+<form id="next-trip-form">
+<h1>Prepare Your Next Trip With Me !</h1>
+<p>Please wait a moment to get in touch .</p>
+<div>
+<label for="email"> Email : </label>
+<input type="email" required name="email" id="email" placeholder="haneen@hotmail.com">
+</div>
+<div>
+    <label for="phone"> Phone Number : </label>
+    <input type="tel" required name="phone" id="phone" placeholder="0596876553" min="9" max="11">
+</div>    
+<div>
+    <label for="Full Name"> Full Name : </label>
+    <input type="text" required name="full_name" id="full_name" >
+</div> 
+    <div>
+        <label> Gender :</label> 
+    <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label class="inline-label" for="Male">Male</label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="female" value="female">
+        <label class="inline-label" for="female">Female</label>
+    </div>
+</div> 
+<div>
+    <label for="cities">Where would you like to Travel?</label>
+    <select>
+        <option value=""> choose one</option>
+        <option value="Luxor"> Luxor</option>
+        <option value="Alex">Alex</option>
+    </select>
+</div>
+<div>
+    <label>Services Needed:</label>
+    <div>
+        <input type="checkbox" name="service" id="airline_tickets">
+        <label class="inline-label" for="airline_tickets">Airline Tickets</label>
+    </div>
+    <div>
+        <input type="checkbox" name="service" id="rental_car">
+        <label class="inline-label" for="rental_car">Rental Car</label>
+    </div>
+    <div>
+        <input type="checkbox" name="service" id="hotel_accommodations">
+        <label class="inline-label" for="hotel_accommodations">Hotel Accommodations</label>
+    </div>
+</div>
+<div>
+    <label for="message">Leave A message</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+</div>
+<div>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <audio src=""></audio>
+</div>
+</form>
+  </main>
+  <button class="btn btn-success"><a href="newindex.html">Next</a></button>
+</body>
+</html>
